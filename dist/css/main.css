@@ -55,7 +55,7 @@
   .menu .portrait {
     width: 250px;
     height: 250px;
-    background: url("/dist/img/pics4.1.jpg");
+    background: url("../img/pics4.1.jpg");
     border-radius: 50%;
     border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -101,7 +101,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("/dist/img/bg_3.jpg");
+    background: url("../img/bg_3.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -156,6 +156,12 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#about {
+    overflow: hidden; }
+  main#contact {
+    overflow: hidden; }
+  main#work {
+    overflow: hidden; }
 
 .about-info {
   display: grid;
@@ -280,4 +286,8 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#contact h1 .boxes {
+    width: 100%;
+    align-items: cente;
+    text-align: center; } }
